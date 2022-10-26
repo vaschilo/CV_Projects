@@ -27,7 +27,7 @@ def recognition():
         if cv2.waitKey(1) == ord('q'):      # Ожидаем нажатия 'q', если дождались, выходим из цикла("Ц" не сработает)
             break
 
-    capture.release()       #  Отпускаем захват нашей WEB-камеры)
+    capture.release()       #  Отпускаем захват нашего устройства захвата
     cv2.destroyAllWindows() #  Закрываем окна
 
 
